@@ -13,3 +13,12 @@ function torra(pao, nome = "Cliente"){
 }
 
 torra("pão com queijo e bacon")
+
+// atrinbuindo o valor na função "preço"
+function torra(pao, nome = "Cliente", valor){
+        console.log("Sua torrada está pronta com " + pao)
+        console.log("Ela é um pedido de " + nome)
+        console.log("O valor total é de " + valor)
+}
+
+torra("pão com queijo e bacon " ,"Adrian ", 10.5)
